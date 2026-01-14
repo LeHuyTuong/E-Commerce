@@ -2,7 +2,7 @@
 
 A robust, full-stack E-Commerce application architected with Financial Technology (Fintech) standards. Features a complete Wallet System, Transactional Integrity, and Audit Logging similar to real-world banking applications.
 
-![Home Page Showcase](file:///C:/Users/USER/.gemini/antigravity/brain/17d9f503-dcff-4a58-9bb5-0f755075babb/home_page_showcase_1768403353877.png)
+<img width="1899" height="860" alt="image" src="https://github.com/user-attachments/assets/754b9be5-e839-4716-9cc6-511ff7dc6d05" />
 
 ## Architecture
 
@@ -46,8 +46,11 @@ npm run dev
 | `POST` | `/api/order/users/payments/WALLET` | Pay with Wallet (Transactional) |
 
 ## Screenshots
-*   [Login Page](file:///C:/Users/USER/.gemini/antigravity/brain/17d9f503-dcff-4a58-9bb5-0f755075babb/login_page_showcase_1768403364535.png)
+<img width="1778" height="917" alt="image" src="https://github.com/user-attachments/assets/39cdec11-5412-49c3-91a2-949f6371e0e8" />
+<img width="1777" height="841" alt="image" src="https://github.com/user-attachments/assets/6145d286-e3c0-4c09-adb1-63cf379636fe" />
+<img width="1863" height="860" alt="image" src="https://github.com/user-attachments/assets/025893fb-b6db-4b5b-bee3-06e656091a5f" />
+<img width="1853" height="782" alt="image" src="https://github.com/user-attachments/assets/a275fafa-5daa-45fc-a2e2-852c8216d75b" />
+<img width="1897" height="853" alt="image" src="https://github.com/user-attachments/assets/87081888-a682-4105-9176-a04e01ce6709" />
 
-## Admin Credentials
 *   **Username**: `admin1`
 *   **Password**: `123456`
