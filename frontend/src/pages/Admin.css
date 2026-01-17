@@ -1,0 +1,373 @@
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn-add {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-add:hover {
+    background: #218838;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.admin-table th {
+    background: #f5f5f5;
+    font-weight: bold;
+}
+
+.admin-table tr:hover {
+    background: #f9f9f9;
+}
+
+.admin-table .actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-edit {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn-edit:hover {
+    background: #0056b3;
+}
+
+.btn-delete {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn-delete:hover {
+    background: #c82333;
+}
+
+/* Modal Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.modal-content h2 {
+    margin: 0 0 20px 0;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn-cancel {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-cancel:hover {
+    background: #5a6268;
+}
+
+.btn-save {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-save:hover {
+    background: #218838;
+}
+
+/* Status Badges */
+.status-badge {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.status-badge.order-accepted-\! {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-badge.shipped {
+    background: #cce5ff;
+    color: #004085;
+}
+
+.status-badge.delivered {
+    background: #d4edda;
+    color: #155724;
+}
+
+/* Role Badges */
+.role-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-right: 4px;
+    text-transform: uppercase;
+}
+
+.role-badge.role_admin {
+    background: #dc3545;
+    color: white;
+}
+
+.role-badge.role_seller {
+    background: #17a2b8;
+    color: white;
+}
+
+.role-badge.role_user {
+    background: #6c757d;
+    color: white;
+}
+
+/* Action Buttons Small */
+.action-buttons-small {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.btn-success-sm {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-success-sm:hover {
+    background: #218838;
+}
+
+.btn-success-sm:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+}
+
+.text-success {
+    color: #28a745;
+    font-weight: 500;
+}
+
+/* Add Form Card */
+.add-form-card {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.add-form-card h3 {
+    margin: 0 0 15px 0;
+    color: #333;
+}
+
+.add-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.add-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.add-form .btn-primary {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.add-form .btn-primary:hover {
+    background: #0056b3;
+}
+
+.add-form .btn-primary:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+}
+
+.error-msg {
+    color: #dc3545;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.small-text {
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+/* Inline Edit Styles */
+.edit-input {
+    padding: 6px 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 200px;
+}
+
+.btn-save-sm {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.btn-save-sm:hover {
+    background: #218838;
+}
+
+.btn-cancel-sm {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn-cancel-sm:hover {
+    background: #545b62;
+}

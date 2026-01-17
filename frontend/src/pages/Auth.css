@@ -1,0 +1,71 @@
+.auth-box {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+}
+
+.auth-box h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.auth-box button {
+    width: 100%;
+    padding: 10px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.auth-box button:disabled {
+    background: #ccc;
+}
+
+.error {
+    color: #ff4444;
+    margin-bottom: 10px;
+}
+
+.role-select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+}
+
+/* Validation error styles */
+.input-error {
+    border-color: #e53935 !important;
+}
+
+.field-error {
+    display: block;
+    color: #e53935;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.auth-link {
+    margin-top: 15px;
+    text-align: center;
+}

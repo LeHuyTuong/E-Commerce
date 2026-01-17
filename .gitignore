@@ -1,0 +1,24 @@
+# Logs
+*.log
+
+# Build outputs
+target/
+dist/
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Agent
+.agent/
+.qodo/

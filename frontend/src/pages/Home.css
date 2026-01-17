@@ -1,0 +1,48 @@
+h1 {
+    margin-bottom: 10px;
+}
+
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+}
+
+.category-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pagination button {
+    padding: 8px 15px;
+    background: #0066cc;
+    color: white;
+    border: none;
+}
+
+.pagination button:disabled {
+    background: #ccc;
+}

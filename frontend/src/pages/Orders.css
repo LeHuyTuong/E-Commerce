@@ -1,0 +1,138 @@
+.orders-page {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.orders-page h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.empty-orders {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.empty-orders p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.empty-orders button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.empty-orders button:hover {
+    background: #0056b3;
+}
+
+.orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.order-header h3 {
+    margin: 0 0 5px 0;
+    color: #333;
+}
+
+.order-date {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.status-badge.pending {
+    background: #fff3cd;
+    color: #856404;
+}
+
+.status-badge.paid {
+    background: #d4edda;
+    color: #155724;
+}
+
+.status-badge.shipped {
+    background: #cce5ff;
+    color: #004085;
+}
+
+.status-badge.delivered {
+    background: #d1ecf1;
+    color: #0c5460;
+}
+
+.order-details {
+    margin-bottom: 15px;
+}
+
+.order-details p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.order-items h4 {
+    margin: 10px 0;
+    color: #333;
+    font-size: 16px;
+}
+
+.order-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.order-items li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-items li:last-child {
+    border-bottom: none;
+}
+
+.item-quantity {
+    color: #666;
+}
+
+.item-price {
+    font-weight: 500;
+    color: #007bff;
+}

@@ -1,0 +1,94 @@
+.seller-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.seller-sidebar {
+    width: 250px;
+    background: linear-gradient(180deg, #2c3e50 0%, #1a252f 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+}
+
+.seller-logo {
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.seller-logo h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.seller-nav {
+    flex: 1;
+    padding: 20px 0;
+}
+
+.seller-nav a {
+    display: block;
+    padding: 12px 20px;
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.seller-nav a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.seller-nav a.active {
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    border-left: 3px solid #3498db;
+}
+
+.seller-user {
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.seller-user span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.seller-user button {
+    width: 100%;
+    padding: 8px;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.seller-user button:hover {
+    background: #c0392b;
+}
+
+.seller-user .back-link {
+    display: block;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.seller-user .back-link:hover {
+    color: white;
+}
+
+.seller-main {
+    flex: 1;
+    margin-left: 250px;
+    padding: 30px;
+    background: #f5f6fa;
+    min-height: 100vh;
+}
